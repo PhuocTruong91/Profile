@@ -11,7 +11,7 @@ const SideLink = () => {
         border-radius: 10px;
         margin-right: 8px;
 
-
+        z-index: 2;
         font-size: 2rem;
         position: sticky;
         float: right;

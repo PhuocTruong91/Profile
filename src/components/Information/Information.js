@@ -19,20 +19,27 @@ const Information = () => {
 
     return (
         <Wrap id="info" >
+
             <Inside>
                 <Image data-aos="fade-right" >
-                    <Decoration style={{ backgroundImage: `url(${avatar})` }}/>
+                    <Decoration style={{ backgroundImage: `url(${avatar})` }} />
                 </Image>
-               
+
                 <Right data-aos="fade-left">
                     <Tittle>About Me</Tittle>
                     <Content>
-                        Xin chào, tôi là Huỳnh Phước Trường, hiện đang là sinh viên năm 4
+                        {/* Xin chào, tôi là Huỳnh Phước Trường, hiện đang là sinh viên năm 4
                         trường Đại Học Sư Phạm Kỹ Thuật và đang trên con đường trở thành 1
                         Front End Developer, bằng kiến thức và kỹ năng tích lũy được trong những
                         năm qua, tôi tạo ra trang web này với hy vọng những nhà tuyển dụng có thể thông
                         qua đó và đánh giá được 1 phần năng lực của tôi, để từ đó tôi có thể tiến thêm
-                        1 bước nữa trên con đường sự nghiệp của mình.
+                        1 bước nữa trên con đường sự nghiệp của mình. */}
+                        Google Dịchhttps://translate.google.com › ...
+                        Dịch vụ miễn phí của Google dịch nhanh các từ, cụm từ và trang web giữa tiếng Việt và hơn 100 ngôn ngữ khác.
+                        Bạn đã truy cập trang này nhiều lần. Lần truy cập cuối: 12/06/2021
+                        Google Dịchhttps://translate.google.com › ...
+                        Dịch vụ miễn phí của Google dịch nhanh các từ, cụm từ và trang web giữa tiếng Việt và hơn 100 ngôn ngữ khác.
+                        Bạn đã truy cập trang này nhiều lần. Lần truy cập cuối: 12/06/2021
                     </Content>
                 </Right>
             </Inside>

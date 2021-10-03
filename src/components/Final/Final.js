@@ -23,6 +23,7 @@ const Final = () => {
     return (
         <Wrap>
             <Inside>
+                <Tittle style = {{fontSize: '30px'}}>SKILL</Tittle>
                 {data.map((data) => (
                      <WrapBar>
                      <WrapInfoBar>

@@ -5,17 +5,19 @@ export const Wrap = styled.div`
     height: 90vh;
     background: #101522;
     margin-top: 0px;
+    display: flex;
+    align-items: center;
 `;
 
 export const Inside = styled.div`
     margin: auto;
-    width: 70%;
+    background: #101522;
+    width: 100%;
     height: 70%;
-    padding-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 `;
 
 export const WrapBar = styled.div`
